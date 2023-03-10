@@ -1,0 +1,56 @@
+!table
+!version 300
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 49
+    FID Integer (4) ;
+    NAME Char (31) ;
+    CLASS Char (28) ;
+    ST Char (2) ;
+    STFIPS Char (2) ;
+    PLACEFIPS Char (7) ;
+    CAPITAL Char (8) ;
+    POP_CLASS Integer (2) ;
+    POPULATION Integer (7) ;
+    POP2010 Integer (7) ;
+    WHITE Integer (7) ;
+    BLACK Integer (7) ;
+    AMERI_ES Integer (5) ;
+    ASIAN Integer (7) ;
+    HAWN_PI Integer (5) ;
+    HISPANIC Integer (7) ;
+    OTHER Integer (7) ;
+    MULT_RACE Integer (6) ;
+    MALES Integer (7) ;
+    FEMALES Integer (7) ;
+    AGE_UNDER5 Integer (6) ;
+    AGE_5_9 Integer (6) ;
+    AGE_10_14 Integer (6) ;
+    AGE_15_19 Integer (6) ;
+    AGE_20_24 Integer (6) ;
+    AGE_25_34 Integer (7) ;
+    AGE_35_44 Integer (7) ;
+    AGE_45_54 Integer (7) ;
+    AGE_55_64 Integer (6) ;
+    AGE_65_74 Integer (6) ;
+    AGE_75_84 Integer (6) ;
+    AGE_85_UP Integer (6) ;
+    MED_AGE Decimal (20,15) ;
+    MED_AGE_M Decimal (20,15) ;
+    MED_AGE_F Decimal (20,15) ;
+    HOUSEHOLDS Integer (7) ;
+    AVE_HH_SZ Decimal (20,15) ;
+    HSEHLD_1_M Integer (6) ;
+    HSEHLD_1_F Integer (6) ;
+    MARHH_CHD Integer (6) ;
+    MARHH_NO_C Integer (6) ;
+    MHH_CHILD Integer (5) ;
+    FHH_CHILD Integer (6) ;
+    FAMILIES Integer (7) ;
+    AVE_FAM_SZ Decimal (20,15) ;
+    HSE_UNITS Integer (7) ;
+    VACANT Integer (6) ;
+    OWNER_OCC Integer (6) ;
+    RENTER_OCC Integer (7) ;
